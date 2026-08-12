@@ -26,12 +26,14 @@ controller_projects:
 
   - name: AEG GitOps
     organization: "{{ orgname_vault }}"
-    scm_branch: v2
+    # scm_branch: v2
+    scm_branch: test-kiosk-healthcheck
     scm_clean: "no"
     scm_delete_on_update: "no"
     scm_type: git
     scm_update_on_launch: "yes"
-    scm_url: https://github.com/validatedpatterns-demos/rhvp.ansible_edge_hmi.git
+    # scm_url: https://github.com/validatedpatterns-demos/rhvp.ansible_edge_hmi.git
+    scm_url: https://github.com/mhjacks/rhvp.ansible_edge_hmi.git
     wait: true
     update_project: true
 
